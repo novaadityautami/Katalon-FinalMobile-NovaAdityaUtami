@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC Negatif" time="29.291" tests="1" failures="0" errors="0">
+   <testsuite name="TC Negatif" tests="1" failures="0" errors="0" time="29.291" skipped="0" timestamp="13-02-2024T19:00:51" hostname="admin - admins-macbook-pro.local" id="Test Suites/TC Negatif">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/Katalon-FinalMobile-NovaAdityaUtami/Reports/20240213_185908/TC Negatif/20240213_190049"/>
+         <property name="logFiles" value="/Users/admin/git/Katalon-FinalMobile-NovaAdityaUtami/Reports/20240213_185908/TC Negatif/20240213_190049/execution0.log, /Users/admin/git/Katalon-FinalMobile-NovaAdityaUtami/Reports/20240213_185908/TC Negatif/20240213_190049/appium_error.log, /Users/admin/git/Katalon-FinalMobile-NovaAdityaUtami/Reports/20240213_185908/TC Negatif/20240213_190049/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - admins-macbook-pro.local"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="169.254.17.156"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/TC Negatif - Login" time="29.194" classname="Test Cases/TC Negatif - Login" status="PASSED">
+         <system-out><![CDATA[13-02-2024T19:00:52 - [TEST_CASE][PASSED] - Test Cases/TC Negatif - Login: Test Cases/TC Negatif - Login
+
+13-02-2024T19:00:52 - [TEST_STEP][PASSED] - startApplication("/Users/admin/Downloads/Advantage+demo+3.2.apk", true): Started app at: '/Users/admin/Downloads/Advantage+demo+3.2.apk'
+
+13-02-2024T19:00:52 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+13-02-2024T19:00:52 - [MESSAGE][INFO] - PATH: /usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Arm64.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+13-02-2024T19:00:52 - [MESSAGE][INFO] - APPIUM_HOME: /Users/admin/.appium
+
+13-02-2024T19:00:52 - [MESSAGE][INFO] - appium outlog: /Users/admin/git/Katalon-FinalMobile-NovaAdityaUtami/Reports/20240213_185908/TC Negatif/20240213_190049/appium.log
+
+13-02-2024T19:00:52 - [MESSAGE][INFO] - appium errlog: /Users/admin/git/Katalon-FinalMobile-NovaAdityaUtami/Reports/20240213_185908/TC Negatif/20240213_190049/appium_error.log
+
+13-02-2024T19:00:53 - [MESSAGE][INFO] - Appium server started on port 64,050
+
+13-02-2024T19:01:02 - [MESSAGE][PASSED] - Started app at: '/Users/admin/Downloads/Advantage+demo+3.2.apk'
+
+13-02-2024T19:01:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Negatif Login/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Negatif Login/android.widget.ImageView'
+
+13-02-2024T19:01:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T19:01:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Negatif Login/android.widget.ImageView'
+
+13-02-2024T19:01:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Negatif Login/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Negatif Login/android.widget.LinearLayout'
+
+13-02-2024T19:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T19:01:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Negatif Login/android.widget.LinearLayout'
+
+13-02-2024T19:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Negatif Login/android.widget.EditText"), UserName, 0): Text 'testinglagi' has been set to element 'Object Repository/Negatif Login/android.widget.EditText'
+
+13-02-2024T19:01:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T19:01:10 - [MESSAGE][PASSED] - Text 'testinglagi' has been set to element 'Object Repository/Negatif Login/android.widget.EditText'
+
+13-02-2024T19:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Negatif Login/android.widget.EditText (1)"), Password, 0): Text 'P@ssw0rd' has been set to element 'Object Repository/Negatif Login/android.widget.EditText (1)'
+
+13-02-2024T19:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T19:01:13 - [MESSAGE][PASSED] - Text 'P@ssw0rd' has been set to element 'Object Repository/Negatif Login/android.widget.EditText (1)'
+
+13-02-2024T19:01:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Negatif Login/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Negatif Login/android.widget.Button - LOGIN'
+
+13-02-2024T19:01:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T19:01:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Negatif Login/android.widget.Button - LOGIN'
+
+13-02-2024T19:01:14 - [TEST_STEP][PASSED] - if (rememberMe == "yes"): Close app successfully
+
+13-02-2024T19:01:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login/android.widget.Button - NO"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - NO'
+
+13-02-2024T19:01:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T19:01:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - NO'
+
+13-02-2024T19:01:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Negatif Login/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Negatif Login/android.widget.ImageView'
+
+13-02-2024T19:01:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T19:01:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Negatif Login/android.widget.ImageView'
+
+13-02-2024T19:01:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T19:01:21 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T19:00:51 - [TEST_SUITE][PASSED] - TC Negatif: Test Cases/TC Negatif - Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

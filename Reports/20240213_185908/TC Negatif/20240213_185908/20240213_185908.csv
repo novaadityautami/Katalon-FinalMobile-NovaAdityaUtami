@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC Negatif,,,,13-02-2024 18:59:10,13-02-2024 19:00:48,1m - 38.646s,FAILED
+,,,,,,,
+Test Cases/TC Negative - Search,,,,13-02-2024 18:59:10,13-02-2024 18:59:31,21.369s,PASSED
+"startApplication(""/Users/admin/Downloads/Advantage+demo+3.2.apk"", true)",,,,13-02-2024 18:59:10,13-02-2024 18:59:24,13.957s,PASSED
+"setText(findTestObject(""Object Repository/Search - Negatif/android.widget.EditText - Search""), ""televisi"", 0)",,,,13-02-2024 18:59:24,13-02-2024 18:59:30,5.945s,PASSED
+"tap(findTestObject(""Object Repository/Search - Negatif/android.widget.ImageView""), 0)",,,,13-02-2024 18:59:30,13-02-2024 18:59:31,1.364s,PASSED
+,,,,,,,
+Test Cases/TC Negatif - Login,,,,13-02-2024 18:59:31,13-02-2024 19:00:01,29.640s,PASSED
+"startApplication(""/Users/admin/Downloads/Advantage+demo+3.2.apk"", true)",,,,13-02-2024 18:59:31,13-02-2024 18:59:43,11.892s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.ImageView""), 0)",,,,13-02-2024 18:59:43,13-02-2024 18:59:47,3.969s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.LinearLayout""), 0)",,,,13-02-2024 18:59:47,13-02-2024 18:59:48,1.087s,PASSED
+"setText(findTestObject(""Object Repository/Negatif Login/android.widget.EditText""), UserName, 0)",,,,13-02-2024 18:59:48,13-02-2024 18:59:52,3.777s,PASSED
+"setText(findTestObject(""Object Repository/Negatif Login/android.widget.EditText (1)""), Password, 0)",,,,13-02-2024 18:59:52,13-02-2024 18:59:54,2.198s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.Button - LOGIN""), 0)",,,,13-02-2024 18:59:54,13-02-2024 18:59:56,1.600s,PASSED
+"if (rememberMe == ""yes"")",,,,13-02-2024 18:59:56,13-02-2024 18:59:56,0.002s,PASSED
+else,,,,13-02-2024 18:59:56,13-02-2024 19:00:01,5.017s,PASSED
+,,,,,,,
+Test Cases/TC Negatif - Login,,,,13-02-2024 19:00:01,13-02-2024 19:00:48,47.423s,FAILED
+"startApplication(""/Users/admin/Downloads/Advantage+demo+3.2.apk"", true)",,,,13-02-2024 19:00:01,13-02-2024 19:00:10,9.373s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.ImageView""), 0)",,,,13-02-2024 19:00:10,13-02-2024 19:00:15,4.331s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.LinearLayout""), 0)",,,,13-02-2024 19:00:15,13-02-2024 19:00:48,33.702s,FAILED

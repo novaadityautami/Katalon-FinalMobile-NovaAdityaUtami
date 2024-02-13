@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC Negatif,,,,13-02-2024 19:00:51,13-02-2024 19:01:21,29.291s,PASSED
+,,,,,,,
+Test Cases/TC Negatif - Login,,,,13-02-2024 19:00:52,13-02-2024 19:01:21,29.194s,PASSED
+"startApplication(""/Users/admin/Downloads/Advantage+demo+3.2.apk"", true)",,,,13-02-2024 19:00:52,13-02-2024 19:01:02,9.906s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.ImageView""), 0)",,,,13-02-2024 19:01:02,13-02-2024 19:01:06,4.091s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.LinearLayout""), 0)",,,,13-02-2024 19:01:06,13-02-2024 19:01:06,0.771s,PASSED
+"setText(findTestObject(""Object Repository/Negatif Login/android.widget.EditText""), UserName, 0)",,,,13-02-2024 19:01:06,13-02-2024 19:01:10,3.748s,PASSED
+"setText(findTestObject(""Object Repository/Negatif Login/android.widget.EditText (1)""), Password, 0)",,,,13-02-2024 19:01:10,13-02-2024 19:01:13,2.445s,PASSED
+"tap(findTestObject(""Object Repository/Negatif Login/android.widget.Button - LOGIN""), 0)",,,,13-02-2024 19:01:13,13-02-2024 19:01:14,1.496s,PASSED
+"if (rememberMe == ""yes"")",,,,13-02-2024 19:01:14,13-02-2024 19:01:21,6.591s,PASSED

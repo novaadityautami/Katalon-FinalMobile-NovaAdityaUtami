@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Search","testCaseId":"Test Cases/Search","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login - Iteration 1","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"UserName":"\u0027namuu\u0027","Password":"\u0027Halo1\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 2","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"UserName":"\u0027namasata\u0027","Password":"\u0027Hey123\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 3","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"UserName":"\u0027cieci\u0027","Password":"\u0027Cui123\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 4","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"UserName":"\u0027testinglagi\u0027","Password":"\u0027P@ssw0rd\u0027"}}
