@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Negatif - Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a63a3692-5b15-4f38-8768-f96b70a9dd8b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>77d2fef8-7924-446d-98f8-c64cbecca1df</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login salah</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>77d2fef8-7924-446d-98f8-c64cbecca1df</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserName</value>
+      <variableId>ff047642-de2c-4afe-8653-02475da82246</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>77d2fef8-7924-446d-98f8-c64cbecca1df</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>773296f7-abd6-4eba-86a3-530d2554446e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>77d2fef8-7924-446d-98f8-c64cbecca1df</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>rememberMe</value>
+      <variableId>4e36e0f1-6d70-4b54-8e50-d3587975b957</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff047642-de2c-4afe-8653-02475da82246</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>773296f7-abd6-4eba-86a3-530d2554446e</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e36e0f1-6d70-4b54-8e50-d3587975b957</id>
+      <masked>false</masked>
+      <name>rememberMe</name>
+   </variable>
+</TestCaseEntity>
